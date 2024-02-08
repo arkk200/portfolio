@@ -3,8 +3,8 @@ import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import World from "./components/World";
 import Lights from "./components/Lights";
-import { KeyboardControls } from "@react-three/drei";
 import { Controls } from "./constants";
+import KeyboardControls from "./contexts/KeyboardControlsContext";
 
 function App() {
   const map = useMemo(
